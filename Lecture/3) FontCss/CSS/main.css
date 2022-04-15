@@ -1,0 +1,40 @@
+h1 {
+    color: rgb(255,0,0);
+}
+
+.titles {
+    text-decoration: underline;
+    color: green;
+}
+
+#title3 {
+    color: red;
+}
+
+#cent {
+    text-align: center;
+}
+
+#right {
+    text-align: right;
+}
+
+#decor {
+    text-decoration-style: solid;
+    text-decoration-color: red;
+    text-decoration-line: underline;
+    text-decoration-thickness: 10px;
+}
+
+#decorAlt {
+    text-decoration: dashed red overline 3px;
+}
+
+#marginPadding {
+    margin: 5px 10px 15px 20px;
+    margin-top: 30px;
+    margin: 20px 40px;
+    padding: 5px;
+    background-color: red;
+    color: white;
+}

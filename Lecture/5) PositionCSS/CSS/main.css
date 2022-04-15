@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+}
+
+div {
+    margin-bottom: 50px;
+}
+
+#sticky {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: lightblue;
+    z-index: 1;
+}
+
+#sticky h4 {
+    margin: 0;
+}
+
+#absolut {
+    position: relative;
+}
+
+#absolut img {
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+}
+
+#absolut h4 {
+    margin: 0;
+    position: absolute;
+    top: 65px;
+    width: 150px;
+    height: 20px;
+    text-align: center;
+    color: white;
+}
+
+#fixed {
+    background-color: lightgray;
+    border-radius: 10px;
+    position: fixed;
+    top: 289px;
+    left: 588px;
+}
+
+#flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+#flex img {
+    object-fit: contain;
+    width: 150px;
+    height: 150px;
+}
+
+#flex div {
+    background-color: lightgreen;
+    height: 150px;
+    display: flex;
+    flex-direction: column; /* Vender horizontal til vertical */
+    align-items: center;
+    flex-wrap: wrap;
+    width: 400px;
+}
+
+#filler {
+    background-color: lightcyan;
+    height: 800px;
+    width: 100%;
+}

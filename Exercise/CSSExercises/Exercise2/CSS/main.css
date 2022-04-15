@@ -1,0 +1,40 @@
+#l1 {
+    background-color: green;
+    width: 200px;
+}
+
+#l2 {
+    background-color: yellow;
+    width: 150px;
+}
+
+#l3 {
+    background-color: red;
+    width: 100px;
+}
+
+#div1 {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    margin-left: 100px;
+    color: white;
+
+}
+
+#div2 {
+    width: 150px;
+    height: 50px;
+    background-color: blue;
+    margin-left: 50px;
+    color: white;
+
+}
+
+#div3 {
+    width: 250px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+
+}

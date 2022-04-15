@@ -1,0 +1,31 @@
+#title {
+    border-width: 1px;
+    border-color: red;
+    border-style: dashed;
+    border-radius: 10px;
+    color: blue;
+}
+
+#title3, .titleClass {
+    color: green;
+}
+
+
+article {
+    background-color: #b1ccef;
+    margin: 50px;
+    padding: 10px;
+}
+
+header {
+    background-color: #b1ebef;
+    width: 200px;
+    height: 80px;
+    text-align: center;
+}
+
+main {
+    background-color: #b5b1ef;
+    padding: 10px;
+    margin-top: 20px;
+}

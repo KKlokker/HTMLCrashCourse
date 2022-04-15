@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    font-family: 'Trebuchet MS';
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    width: calc(100%-200px);
+    background-color: lightgreen;
+    padding: 0 200px;
+}
+
+nav img {
+    height: 130px;
+}
+
+nav div {
+    display: flex;
+    margin-left: 50px;
+    width: 500px;
+    justify-content: space-between;
+}
+
+nav p {
+    font-weight: bolder;
+}
+
+#hero {
+    position: relative;
+}
+
+#hero img {
+    width: 100%;
+    object-fit: cover;
+    height: 700px;
+}
+
+#hero div {
+    background-color: rgba(50, 50, 50, 0.5);
+    color: white;
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    flex-direction: column;
+}
+
+#info {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 200px;
+}
+
+#info img {
+    width: 300px;
+}
+
+#info div {
+    width: 500px;
+}
+
+#mountain {
+    background-color: lightgreen;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+}
+
+#mountain div{
+    border-radius: 10px;
+    width: 200px;
+    height: 350px;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#mountain div img {
+    width: 100%;
+}
+
+#mountain div button {
+    background-color: lightgreen;
+    border-radius: 5px;
+    width: 100px;
+    margin-bottom: 20px;
+    border-width: 0;
+}
+
+footer {
+    background-color: lightgreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    height: 70px;
+}
+
+footer div {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+
+footer div img {
+    height: 50px;
+}
